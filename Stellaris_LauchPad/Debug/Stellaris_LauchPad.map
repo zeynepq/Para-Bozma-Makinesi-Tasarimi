@@ -1,0 +1,895 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+                              ./src/main.o (GPIOPinRead)
+/home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+                              /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o) (IntRegister)
+/home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+                              ./src/Lcd.o (SysCtlPeripheralEnable)
+/home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(cpu.o)
+                              /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o) (CPUcpsid)
+/usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_addsubdf3.o)
+                              ./src/main.o (__aeabi_dsub)
+/usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_muldivdf3.o)
+                              ./src/main.o (__aeabi_dmul)
+/usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_fixdfsi.o)
+                              ./src/main.o (__aeabi_d2iz)
+/usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_truncdfsf2.o)
+                              ./src/main.o (__aeabi_d2f)
+/usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o (atexit)
+/usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-exit.o)
+                              /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o (exit)
+/usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-fini.o)
+                              /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o (__libc_fini_array)
+/usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-impure.o)
+                              /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-exit.o) (_global_impure_ptr)
+/usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-init.o)
+                              /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o (__libc_init_array)
+/usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-itoa.o)
+                              ./src/main.o (itoa)
+/usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-memset.o)
+                              /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o (memset)
+/usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-utoa.o)
+                              /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-itoa.o) (__utoa)
+/usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-atexit.o) (__register_exitproc)
+/usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__call_atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-exit.o) (__call_exitprocs)
+
+Allocating common symbols
+Common symbol       size              file
+
+ulLoop              0x4               ./src/main.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crti.o
+ .text          0x0000000000000000       0xa4 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
+ .bss           0x0000000000000000       0x1c /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
+ .init_array    0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
+ .fini_array    0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
+ .eh_frame      0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
+ .jcr           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
+ .tm_clone_table
+                0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
+ .comment       0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
+ .ARM.attributes
+                0x0000000000000000       0x32 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
+ .text          0x0000000000000000       0x68 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .ARM.exidx     0x0000000000000000        0x8 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .debug_line    0x0000000000000000       0x7e /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .debug_info    0x0000000000000000       0xa8 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .debug_abbrev  0x0000000000000000       0x14 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .ARM.attributes
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+ .group         0x0000000000000000        0x8 ./src/Lcd.o
+ .group         0x0000000000000000        0x8 ./src/Lcd.o
+ .group         0x0000000000000000        0x8 ./src/Lcd.o
+ .group         0x0000000000000000        0x8 ./src/Lcd.o
+ .group         0x0000000000000000        0x8 ./src/Lcd.o
+ .group         0x0000000000000000        0x8 ./src/Lcd.o
+ .group         0x0000000000000000        0x8 ./src/Lcd.o
+ .group         0x0000000000000000        0x8 ./src/Lcd.o
+ .text          0x0000000000000000        0x0 ./src/Lcd.o
+ .data          0x0000000000000000        0x0 ./src/Lcd.o
+ .bss           0x0000000000000000        0x0 ./src/Lcd.o
+ .text.Lcd_init
+                0x0000000000000000      0x110 ./src/Lcd.o
+ .text.Lcd_Komut
+                0x0000000000000000       0x94 ./src/Lcd.o
+ .text.Lcd_Putch
+                0x0000000000000000       0x90 ./src/Lcd.o
+ .text.Lcd_Goto
+                0x0000000000000000       0x6c ./src/Lcd.o
+ .text.Lcd_Temizle
+                0x0000000000000000       0x18 ./src/Lcd.o
+ .text.Lcd_Puts
+                0x0000000000000000       0x30 ./src/Lcd.o
+ .debug_info    0x0000000000000000       0xf4 ./src/Lcd.o
+ .debug_abbrev  0x0000000000000000       0x6c ./src/Lcd.o
+ .debug_aranges
+                0x0000000000000000       0x48 ./src/Lcd.o
+ .debug_ranges  0x0000000000000000       0x38 ./src/Lcd.o
+ .debug_macro   0x0000000000000000       0x51 ./src/Lcd.o
+ .debug_macro   0x0000000000000000      0x87a ./src/Lcd.o
+ .debug_macro   0x0000000000000000      0x371 ./src/Lcd.o
+ .debug_macro   0x0000000000000000       0xca ./src/Lcd.o
+ .debug_macro   0x0000000000000000      0x278 ./src/Lcd.o
+ .debug_macro   0x0000000000000000      0xb82 ./src/Lcd.o
+ .debug_macro   0x0000000000000000       0xb2 ./src/Lcd.o
+ .debug_macro   0x0000000000000000       0x6a ./src/Lcd.o
+ .debug_macro   0x0000000000000000       0x3a ./src/Lcd.o
+ .debug_line    0x0000000000000000      0x1c7 ./src/Lcd.o
+ .debug_str     0x0000000000000000     0x796f ./src/Lcd.o
+ .comment       0x0000000000000000       0x2c ./src/Lcd.o
+ .debug_frame   0x0000000000000000       0xd8 ./src/Lcd.o
+ .ARM.attributes
+                0x0000000000000000       0x37 ./src/Lcd.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/main.o
+ .text          0x0000000000000000        0x0 ./src/main.o
+ .data          0x0000000000000000        0x0 ./src/main.o
+ .bss           0x0000000000000000        0x0 ./src/main.o
+ .debug_macro   0x0000000000000000      0x87a ./src/main.o
+ .debug_macro   0x0000000000000000      0x278 ./src/main.o
+ .debug_macro   0x0000000000000000       0xca ./src/main.o
+ .debug_macro   0x0000000000000000       0xb2 ./src/main.o
+ .debug_macro   0x0000000000000000       0x6a ./src/main.o
+ .debug_macro   0x0000000000000000      0xb82 ./src/main.o
+ .group         0x0000000000000000        0x8 ./src/startup_gcc.o
+ .group         0x0000000000000000        0x8 ./src/startup_gcc.o
+ .group         0x0000000000000000        0x8 ./src/startup_gcc.o
+ .text          0x0000000000000000        0x0 ./src/startup_gcc.o
+ .data          0x0000000000000000        0x0 ./src/startup_gcc.o
+ .bss           0x0000000000000000        0x0 ./src/startup_gcc.o
+ .debug_macro   0x0000000000000000      0x87a ./src/startup_gcc.o
+ .debug_macro   0x0000000000000000       0xca ./src/startup_gcc.o
+ .text          0x0000000000000000        0x0 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .data          0x0000000000000000        0x0 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .bss           0x0000000000000000        0x0 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOGetIntNumber
+                0x0000000000000000      0x140 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIODirModeGet
+                0x0000000000000000       0x24 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOIntTypeSet
+                0x0000000000000000       0x4a /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOIntTypeGet
+                0x0000000000000000       0x32 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPadConfigGet
+                0x0000000000000000       0x76 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinIntEnable
+                0x0000000000000000        0xc /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinIntDisable
+                0x0000000000000000        0xe /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinIntStatus
+                0x0000000000000000        0xe /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinIntClear
+                0x0000000000000000        0x6 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPortIntRegister
+                0x0000000000000000       0x1a /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPortIntUnregister
+                0x0000000000000000       0x16 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinWrite
+                0x0000000000000000        0x6 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeADC
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeCAN
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeComparator
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeEPI
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeEthernetLED
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeEthernetMII
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeFan
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeGPIOOutput
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeGPIOOutputOD
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeI2C
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeI2CSCL
+                0x0000000000000000       0x90 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeI2S
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeLPC
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypePECIRx
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypePECITx
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypePWM
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeQEI
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeSSI
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeTimer
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeUART
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeUSBAnalog
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeUSBDigital
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinConfigure
+                0x0000000000000000       0x4c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIODMATriggerEnable
+                0x0000000000000000        0xc /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIODMATriggerDisable
+                0x0000000000000000        0xe /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOADCTriggerEnable
+                0x0000000000000000        0xc /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOADCTriggerDisable
+                0x0000000000000000        0xe /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .rodata.g_pulGPIOBaseAddrs
+                0x0000000000000000       0x78 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .text          0x0000000000000000        0x0 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .data          0x0000000000000000        0x0 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .bss           0x0000000000000000        0x0 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntDefaultHandler
+                0x0000000000000000        0x2 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntMasterEnable
+                0x0000000000000000        0xa /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntMasterDisable
+                0x0000000000000000        0xa /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntRegister
+                0x0000000000000000       0x30 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntUnregister
+                0x0000000000000000       0x14 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntPriorityGroupingSet
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntPriorityGroupingGet
+                0x0000000000000000       0x24 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntPrioritySet
+                0x0000000000000000       0x28 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntPriorityGet
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntEnable
+                0x0000000000000000       0x60 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntDisable
+                0x0000000000000000       0x60 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntIsEnabled
+                0x0000000000000000       0x64 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntPendSet
+                0x0000000000000000       0x50 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntPendClear
+                0x0000000000000000       0x40 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntPriorityMaskSet
+                0x0000000000000000        0x4 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntPriorityMaskGet
+                0x0000000000000000        0x4 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .rodata.g_pulEnRegs
+                0x0000000000000000       0x14 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .rodata.g_pulDisRegs
+                0x0000000000000000       0x14 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .rodata.g_pulPendRegs
+                0x0000000000000000       0x14 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .rodata.g_pulUnpendRegs
+                0x0000000000000000       0x14 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ vtable         0x0000000000000000      0x400 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .rodata.g_pulPriority
+                0x0000000000000000       0x20 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .rodata.g_pulRegs
+                0x0000000000000000       0x9c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .comment       0x0000000000000000       0x2c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .ARM.attributes
+                0x0000000000000000       0x37 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(interrupt.o)
+ .text          0x0000000000000000        0x0 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .data          0x0000000000000000        0x0 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .bss           0x0000000000000000        0x0 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralMapToNew
+                0x0000000000000000       0x24 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlSRAMSizeGet
+                0x0000000000000000       0x14 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlFlashSizeGet
+                0x0000000000000000       0x14 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPinPresent
+                0x0000000000000000       0x14 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralPresent
+                0x0000000000000000       0x7c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralReady
+                0x0000000000000000       0x38 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralPowerOn
+                0x0000000000000000       0x38 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralPowerOff
+                0x0000000000000000       0x38 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralReset
+                0x0000000000000000       0x8c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralEnable
+                0x0000000000000000       0x5c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralDisable
+                0x0000000000000000       0x5c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralSleepEnable
+                0x0000000000000000       0x5c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralSleepDisable
+                0x0000000000000000       0x5c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralDeepSleepEnable
+                0x0000000000000000       0x5c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralDeepSleepDisable
+                0x0000000000000000       0x5c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralClockGating
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlIntRegister
+                0x0000000000000000       0x14 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlIntUnregister
+                0x0000000000000000       0x12 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlIntEnable
+                0x0000000000000000       0x10 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlIntDisable
+                0x0000000000000000       0x10 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlIntClear
+                0x0000000000000000        0xc /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlIntStatus
+                0x0000000000000000       0x18 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlLDOSet
+                0x0000000000000000        0xc /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlLDOGet
+                0x0000000000000000        0xc /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlLDOConfigSet
+                0x0000000000000000        0xc /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlReset
+                0x0000000000000000       0x10 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlSleep
+                0x0000000000000000        0x4 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlDeepSleep
+                0x0000000000000000       0x20 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlResetCauseGet
+                0x0000000000000000        0xc /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlResetCauseClear
+                0x0000000000000000       0x10 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlBrownOutConfigSet
+                0x0000000000000000       0x10 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlMOSCConfigSet
+                0x0000000000000000        0xc /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPIOSCCalibrate
+                0x0000000000000000       0x54 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlClockGet
+                0x0000000000000000      0x22c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlDeepSleepClockSet
+                0x0000000000000000        0xc /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPWMClockSet
+                0x0000000000000000       0x14 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPWMClockGet
+                0x0000000000000000       0x18 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlADCSpeedSet
+                0x0000000000000000       0x20 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlADCSpeedGet
+                0x0000000000000000       0x10 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlIOSCVerificationSet
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlMOSCVerificationSet
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPLLVerificationSet
+                0x0000000000000000       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlClkVerificationClear
+                0x0000000000000000       0x10 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlGPIOAHBEnable
+                0x0000000000000000       0x14 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlGPIOAHBDisable
+                0x0000000000000000       0x14 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlUSBPLLEnable
+                0x0000000000000000       0x10 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlUSBPLLDisable
+                0x0000000000000000       0x10 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlI2SMClkSet
+                0x0000000000000000       0xe0 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .bss.ulOscSelect
+                0x0000000000000000        0x4 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .bss.ulSysDiv  0x0000000000000000        0x4 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .bss.ulOsc     0x0000000000000000        0x4 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .rodata.g_pulDCRegs
+                0x0000000000000000       0x10 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .rodata.g_pulXtals
+                0x0000000000000000       0x6c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .rodata.g_pulDCGCRegs
+                0x0000000000000000        0xc /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .rodata.g_ppulPeripheralMap
+                0x0000000000000000      0x120 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .rodata.g_pulRCGCRegs
+                0x0000000000000000        0xc /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .rodata.g_pulSCGCRegs
+                0x0000000000000000        0xc /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .rodata.g_pulSRCRRegs
+                0x0000000000000000        0xc /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .bss.bNewPLL   0x0000000000000000        0x1 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .text          0x0000000000000000        0x0 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(cpu.o)
+ .data          0x0000000000000000        0x0 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(cpu.o)
+ .bss           0x0000000000000000        0x0 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(cpu.o)
+ .text.CPUcpsid
+                0x0000000000000000        0x8 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(cpu.o)
+ .text.CPUprimask
+                0x0000000000000000        0x6 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(cpu.o)
+ .text.CPUcpsie
+                0x0000000000000000        0x8 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(cpu.o)
+ .text.CPUwfi   0x0000000000000000        0x4 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(cpu.o)
+ .text.CPUbasepriSet
+                0x0000000000000000        0x6 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(cpu.o)
+ .text.CPUbasepriGet
+                0x0000000000000000        0x6 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(cpu.o)
+ .comment       0x0000000000000000       0x2c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(cpu.o)
+ .ARM.attributes
+                0x0000000000000000       0x37 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(cpu.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_addsubdf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_muldivdf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_fixdfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_fixdfsi.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_truncdfsf2.o)
+ .text          0x0000000000000000        0xc /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-atexit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-atexit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-atexit.o)
+ .debug_info    0x0000000000000000       0xfe /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-atexit.o)
+ .debug_abbrev  0x0000000000000000       0xaa /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-atexit.o)
+ .debug_loc     0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-atexit.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-atexit.o)
+ .debug_line    0x0000000000000000       0xb8 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-atexit.o)
+ .debug_str     0x0000000000000000      0x221 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-atexit.o)
+ .comment       0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-atexit.o)
+ .text          0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-exit.o)
+ .debug_info    0x0000000000000000      0x8de /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-exit.o)
+ .debug_abbrev  0x0000000000000000      0x1d6 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-exit.o)
+ .debug_loc     0x0000000000000000       0x1e /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-exit.o)
+ .debug_line    0x0000000000000000      0x162 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-exit.o)
+ .debug_str     0x0000000000000000      0x5be /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-exit.o)
+ .comment       0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000000       0x28 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-exit.o)
+ .text          0x0000000000000000       0x28 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-fini.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-fini.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-fini.o)
+ .debug_info    0x0000000000000000       0xfa /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-fini.o)
+ .debug_abbrev  0x0000000000000000       0xbd /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-fini.o)
+ .debug_loc     0x0000000000000000       0x5c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-fini.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-fini.o)
+ .debug_line    0x0000000000000000       0x9f /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-fini.o)
+ .debug_str     0x0000000000000000      0x219 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-fini.o)
+ .comment       0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-fini.o)
+ .debug_frame   0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-fini.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-fini.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-impure.o)
+ .data          0x0000000000000000      0x430 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-impure.o)
+ .rodata        0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-impure.o)
+ .rodata.str1.4
+                0x0000000000000000        0x2 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-impure.o)
+ .debug_info    0x0000000000000000      0x89b /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000000000      0x180 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000000       0x18 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-impure.o)
+ .debug_line    0x0000000000000000       0xe9 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-impure.o)
+ .debug_str     0x0000000000000000      0x5b5 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-impure.o)
+ .comment       0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-impure.o)
+ .text          0x0000000000000000       0x50 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-init.o)
+ .debug_info    0x0000000000000000      0x110 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-init.o)
+ .debug_abbrev  0x0000000000000000       0xba /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-init.o)
+ .debug_loc     0x0000000000000000       0xae /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-init.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-init.o)
+ .debug_line    0x0000000000000000       0xb8 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-init.o)
+ .debug_str     0x0000000000000000      0x243 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-init.o)
+ .comment       0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-init.o)
+ .debug_frame   0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-itoa.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-itoa.o)
+ .text          0x0000000000000000       0x9c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-memset.o)
+ .debug_info    0x0000000000000000      0x11e /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-memset.o)
+ .debug_abbrev  0x0000000000000000       0x9f /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-memset.o)
+ .debug_loc     0x0000000000000000      0x1ae /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-memset.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-memset.o)
+ .debug_line    0x0000000000000000      0x111 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-memset.o)
+ .debug_str     0x0000000000000000      0x1f8 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-memset.o)
+ .comment       0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-utoa.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-utoa.o)
+ .text          0x0000000000000000       0xa4 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__atexit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__atexit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__atexit.o)
+ .debug_info    0x0000000000000000      0x92e /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__atexit.o)
+ .debug_abbrev  0x0000000000000000      0x20f /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__atexit.o)
+ .debug_loc     0x0000000000000000      0x197 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__atexit.o)
+ .debug_line    0x0000000000000000      0x184 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__atexit.o)
+ .debug_str     0x0000000000000000      0x5f6 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__atexit.o)
+ .comment       0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__atexit.o)
+ .text          0x0000000000000000       0xd8 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__call_atexit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__call_atexit.o)
+ .text.startup  0x0000000000000000       0x14 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__call_atexit.o)
+ .init_array.00000
+                0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000000000000000      0x9a5 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x0000000000000000      0x270 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__call_atexit.o)
+ .debug_loc     0x0000000000000000      0x17b /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x0000000000000000       0x28 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__call_atexit.o)
+ .debug_ranges  0x0000000000000000       0x38 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__call_atexit.o)
+ .debug_line    0x0000000000000000      0x1b0 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__call_atexit.o)
+ .debug_str     0x0000000000000000      0x615 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000000000       0x50 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-__call_atexit.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtend.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtend.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtend.o
+ .jcr           0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtend.o
+ .tm_clone_table
+                0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtend.o
+ .comment       0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtend.o
+ .ARM.attributes
+                0x0000000000000000       0x32 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtend.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtn.o
+ .init          0x0000000000000000        0x8 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtn.o
+ .fini          0x0000000000000000        0x8 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtn.o
+ .ARM.attributes
+                0x0000000000000000       0x22 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x0000000000040000 xr
+SRAM             0x0000000020000000 0x0000000000008000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crti.o
+LOAD /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
+LOAD /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+LOAD ./src/Lcd.o
+LOAD ./src/main.o
+LOAD ./src/startup_gcc.o
+LOAD /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a
+LOAD /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a
+END GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtend.o
+LOAD /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtn.o
+
+.text           0x0000000000000000     0x20c4
+                0x0000000000000000                _text = .
+ *(.isr_vector)
+ .isr_vector    0x0000000000000000      0x26c ./src/startup_gcc.o
+                0x0000000000000000                g_pfnVectors
+ *(.text*)
+ .text.portB_aktif
+                0x000000000000026c       0x44 ./src/main.o
+                0x000000000000026c                portB_aktif
+ .text.setup    0x00000000000002b0       0x64 ./src/main.o
+                0x00000000000002b0                setup
+ .text.data     0x0000000000000314       0x70 ./src/main.o
+                0x0000000000000314                data
+ .text.cmd      0x0000000000000384       0x70 ./src/main.o
+                0x0000000000000384                cmd
+ .text.pseudo_8bit_cmd
+                0x00000000000003f4       0x4c ./src/main.o
+                0x00000000000003f4                pseudo_8bit_cmd
+ .text.clear    0x0000000000000440       0x18 ./src/main.o
+                0x0000000000000440                clear
+ .text.lcd_init
+                0x0000000000000458       0x38 ./src/main.o
+                0x0000000000000458                lcd_init
+ .text.lcd_yazdir
+                0x0000000000000490       0x30 ./src/main.o
+                0x0000000000000490                lcd_yazdir
+ .text.yirmilik
+                0x00000000000004c0      0x118 ./src/main.o
+                0x00000000000004c0                yirmilik
+ .text.onluk    0x00000000000005d8      0x118 ./src/main.o
+                0x00000000000005d8                onluk
+ .text.beslik   0x00000000000006f0      0x114 ./src/main.o
+                0x00000000000006f0                beslik
+ .text.birlik   0x0000000000000804      0x108 ./src/main.o
+                0x0000000000000804                birlik
+ .text.ellikurusluk
+                0x000000000000090c      0x13c ./src/main.o
+                0x000000000000090c                ellikurusluk
+ .text.ceyreklik
+                0x0000000000000a48      0x13c ./src/main.o
+                0x0000000000000a48                ceyreklik
+ *fill*         0x0000000000000b84        0x4 
+ .text.metelik  0x0000000000000b88      0x140 ./src/main.o
+                0x0000000000000b88                metelik
+ .text.delik    0x0000000000000cc8      0x140 ./src/main.o
+                0x0000000000000cc8                delik
+ .text.kurusluk
+                0x0000000000000e08      0x140 ./src/main.o
+                0x0000000000000e08                kurusluk
+ .text.main     0x0000000000000f48      0x488 ./src/main.o
+                0x0000000000000f48                main
+ .text.ResetISR
+                0x00000000000013d0       0x6c ./src/startup_gcc.o
+                0x00000000000013d0                ResetISR
+ .text.NmiSR    0x000000000000143c        0x8 ./src/startup_gcc.o
+ .text.FaultISR
+                0x0000000000001444        0x8 ./src/startup_gcc.o
+ .text.IntDefaultHandler
+                0x000000000000144c        0x8 ./src/startup_gcc.o
+ .text.GPIODirModeSet
+                0x0000000000001454       0x2e /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+                0x0000000000001454                GPIODirModeSet
+ .text.GPIOPadConfigSet
+                0x0000000000001482       0xce /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+                0x0000000000001482                GPIOPadConfigSet
+ .text.GPIOPinRead
+                0x0000000000001550        0x6 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+                0x0000000000001550                GPIOPinRead
+ .text.GPIOPinTypeGPIOInput
+                0x0000000000001556       0x1c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+                0x0000000000001556                GPIOPinTypeGPIOInput
+ .text.SysCtlDelay
+                0x0000000000001572        0x6 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+                0x0000000000001572                SysCtlDelay
+ .text.SysCtlClockSet
+                0x0000000000001578      0x174 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+                0x0000000000001578                SysCtlClockSet
+ .text          0x00000000000016ec      0x370 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_addsubdf3.o)
+                0x00000000000016ec                __aeabi_drsub
+                0x00000000000016f4                __aeabi_dsub
+                0x00000000000016f4                __subdf3
+                0x00000000000016f8                __adddf3
+                0x00000000000016f8                __aeabi_dadd
+                0x0000000000001970                __aeabi_ui2d
+                0x0000000000001970                __floatunsidf
+                0x0000000000001990                __floatsidf
+                0x0000000000001990                __aeabi_i2d
+                0x00000000000019b4                __extendsfdf2
+                0x00000000000019b4                __aeabi_f2d
+                0x00000000000019f0                __aeabi_ul2d
+                0x00000000000019f0                __floatundidf
+                0x0000000000001a00                __floatdidf
+                0x0000000000001a00                __aeabi_l2d
+ .text          0x0000000000001a5c      0x424 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_muldivdf3.o)
+                0x0000000000001a5c                __aeabi_dmul
+                0x0000000000001a5c                __muldf3
+                0x0000000000001cb0                __aeabi_ddiv
+                0x0000000000001cb0                __divdf3
+ .text          0x0000000000001e80       0x50 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_fixdfsi.o)
+                0x0000000000001e80                __fixdfsi
+                0x0000000000001e80                __aeabi_d2iz
+ .text          0x0000000000001ed0       0xa0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_truncdfsf2.o)
+                0x0000000000001ed0                __aeabi_d2f
+                0x0000000000001ed0                __truncdfsf2
+ .text          0x0000000000001f70       0x34 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-itoa.o)
+                0x0000000000001f70                __itoa
+                0x0000000000001fa0                itoa
+ .text          0x0000000000001fa4       0x84 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-utoa.o)
+                0x0000000000001fa4                __utoa
+                0x0000000000002024                utoa
+ *(.rodata*)
+ .rodata        0x0000000000002028       0x71 ./src/main.o
+ *fill*         0x0000000000002099        0x3 
+ .rodata.str1.4
+                0x000000000000209c       0x28 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-utoa.o)
+                                         0x25 (size before relaxing)
+                0x00000000000020c4                _etext = .
+
+.glue_7         0x00000000000020c4        0x0
+ .glue_7        0x00000000000020c4        0x0 linker stubs
+
+.glue_7t        0x00000000000020c4        0x0
+ .glue_7t       0x00000000000020c4        0x0 linker stubs
+
+.vfp11_veneer   0x00000000000020c4        0x0
+ .vfp11_veneer  0x00000000000020c4        0x0 linker stubs
+
+.v4_bx          0x00000000000020c4        0x0
+ .v4_bx         0x00000000000020c4        0x0 linker stubs
+
+.init           0x00000000000020c4        0x4
+ .init          0x00000000000020c4        0x4 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crti.o
+                0x00000000000020c4                _init
+
+.fini           0x00000000000020c8        0x4
+ .fini          0x00000000000020c8        0x4 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crti.o
+                0x00000000000020c8                _fini
+
+.iplt           0x00000000000020cc        0x0
+ .iplt          0x00000000000020cc        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
+
+.rel.dyn        0x00000000000020cc        0x0
+ .rel.iplt      0x00000000000020cc        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
+
+.data           0x0000000020000000        0x0 load address 0x00000000000020c4
+                0x0000000020000000                _data = .
+ *(vtable)
+ *(.data*)
+                0x0000000020000000                _edata = .
+
+.igot.plt       0x0000000020000000        0x0
+ .igot.plt      0x0000000020000000        0x0 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crtbegin.o
+
+.bss            0x0000000020000000      0x204
+                0x0000000020000000                _bss = .
+ *(.bss*)
+ .bss.pulStack  0x0000000020000000      0x200 ./src/startup_gcc.o
+ *(COMMON)
+ COMMON         0x0000000020000200        0x4 ./src/main.o
+                0x0000000020000200                ulLoop
+                0x0000000020000204                _ebss = .
+OUTPUT(Stellaris_LauchPad.elf elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x2e
+ .ARM.attributes
+                0x0000000000000000       0x22 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/crti.o
+ .ARM.attributes
+                0x0000000000000022       0x37 ./src/main.o
+ .ARM.attributes
+                0x0000000000000059       0x37 ./src/startup_gcc.o
+ .ARM.attributes
+                0x0000000000000090       0x37 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+ .ARM.attributes
+                0x00000000000000c7       0x37 /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .ARM.attributes
+                0x00000000000000fe       0x22 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x0000000000000120       0x22 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x0000000000000142       0x22 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x0000000000000164       0x22 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x0000000000000186       0x32 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-itoa.o)
+ .ARM.attributes
+                0x00000000000001b8       0x32 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-utoa.o)
+
+.comment        0x0000000000000000       0x56
+ .comment       0x0000000000000000       0x2b ./src/main.o
+                                         0x2c (size before relaxing)
+ .comment       0x000000000000002b       0x2c ./src/startup_gcc.o
+ .comment       0x000000000000002b       0x2b /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(gpio.o)
+                                         0x2c (size before relaxing)
+ .comment       0x0000000000000056       0x2c /home/student/eclipse-workspace/Stellaris_LauchPad/SW-EK-LM4F120XL-9453/driverlib/gcc/libdriver.a(sysctl.o)
+ .comment       0x0000000000000056       0x2c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-itoa.o)
+ .comment       0x0000000000000056       0x2c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-utoa.o)
+
+.debug_info     0x0000000000000000      0xf7e
+ .debug_info    0x0000000000000000      0x857 ./src/main.o
+ .debug_info    0x0000000000000857      0x121 ./src/startup_gcc.o
+ .debug_info    0x0000000000000978       0xc5 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_addsubdf3.o)
+ .debug_info    0x0000000000000a3d       0xc5 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_muldivdf3.o)
+ .debug_info    0x0000000000000b02       0xc5 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_fixdfsi.o)
+ .debug_info    0x0000000000000bc7       0xc5 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_truncdfsf2.o)
+ .debug_info    0x0000000000000c8c      0x164 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-itoa.o)
+ .debug_info    0x0000000000000df0      0x18e /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-utoa.o)
+
+.debug_abbrev   0x0000000000000000      0x44f
+ .debug_abbrev  0x0000000000000000      0x1ab ./src/main.o
+ .debug_abbrev  0x00000000000001ab       0xac ./src/startup_gcc.o
+ .debug_abbrev  0x0000000000000257       0x14 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_addsubdf3.o)
+ .debug_abbrev  0x000000000000026b       0x14 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_muldivdf3.o)
+ .debug_abbrev  0x000000000000027f       0x14 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_fixdfsi.o)
+ .debug_abbrev  0x0000000000000293       0x14 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_truncdfsf2.o)
+ .debug_abbrev  0x00000000000002a7       0xc1 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-itoa.o)
+ .debug_abbrev  0x0000000000000368       0xe7 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-utoa.o)
+
+.debug_aranges  0x0000000000000000      0x1a0
+ .debug_aranges
+                0x0000000000000000       0xa8 ./src/main.o
+ .debug_aranges
+                0x00000000000000a8       0x38 ./src/startup_gcc.o
+ .debug_aranges
+                0x00000000000000e0       0x20 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_addsubdf3.o)
+ .debug_aranges
+                0x0000000000000100       0x20 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_muldivdf3.o)
+ .debug_aranges
+                0x0000000000000120       0x20 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_fixdfsi.o)
+ .debug_aranges
+                0x0000000000000140       0x20 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_truncdfsf2.o)
+ .debug_aranges
+                0x0000000000000160       0x20 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-itoa.o)
+ .debug_aranges
+                0x0000000000000180       0x20 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-utoa.o)
+
+.debug_ranges   0x0000000000000000       0xc0
+ .debug_ranges  0x0000000000000000       0x98 ./src/main.o
+ .debug_ranges  0x0000000000000098       0x28 ./src/startup_gcc.o
+
+.debug_macro    0x0000000000000000     0xebc2
+ .debug_macro   0x0000000000000000      0x16d ./src/main.o
+ .debug_macro   0x000000000000016d       0x22 ./src/main.o
+ .debug_macro   0x000000000000018f       0x4c ./src/main.o
+ .debug_macro   0x00000000000001db       0x8d ./src/main.o
+ .debug_macro   0x0000000000000268       0x35 ./src/main.o
+ .debug_macro   0x000000000000029d       0x9c ./src/main.o
+ .debug_macro   0x0000000000000339       0x16 ./src/main.o
+ .debug_macro   0x000000000000034f      0x10e ./src/main.o
+ .debug_macro   0x000000000000045d       0x8d ./src/main.o
+ .debug_macro   0x00000000000004ea       0x4a ./src/main.o
+ .debug_macro   0x0000000000000534       0x52 ./src/main.o
+ .debug_macro   0x0000000000000586       0x1f ./src/main.o
+ .debug_macro   0x00000000000005a5       0x43 ./src/main.o
+ .debug_macro   0x00000000000005e8       0x20 ./src/main.o
+ .debug_macro   0x0000000000000608      0x187 ./src/main.o
+ .debug_macro   0x000000000000078f      0x30d ./src/main.o
+ .debug_macro   0x0000000000000a9c       0x16 ./src/main.o
+ .debug_macro   0x0000000000000ab2       0x29 ./src/main.o
+ .debug_macro   0x0000000000000adb     0x8fd8 ./src/main.o
+ .debug_macro   0x0000000000009ab3      0x221 ./src/main.o
+ .debug_macro   0x0000000000009cd4     0x32ca ./src/main.o
+ .debug_macro   0x000000000000cf9e       0xca ./src/main.o
+ .debug_macro   0x000000000000d068       0x23 ./src/startup_gcc.o
+ .debug_macro   0x000000000000d08b     0x1b37 ./src/startup_gcc.o
+
+.debug_line     0x0000000000000000      0xbf5
+ .debug_line    0x0000000000000000      0x519 ./src/main.o
+ .debug_line    0x0000000000000519       0xfa ./src/startup_gcc.o
+ .debug_line    0x0000000000000613      0x179 /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_addsubdf3.o)
+ .debug_line    0x000000000000078c      0x19d /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_muldivdf3.o)
+ .debug_line    0x0000000000000929       0x7a /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_fixdfsi.o)
+ .debug_line    0x00000000000009a3       0x8e /usr/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp/libgcc.a(_arm_truncdfsf2.o)
+ .debug_line    0x0000000000000a31       0xc6 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-itoa.o)
+ .debug_line    0x0000000000000af7       0xfe /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-utoa.o)
+
+.debug_str      0x0000000000000000    0x42b20
+ .debug_str     0x0000000000000000    0x40fce ./src/main.o
+                                      0x41117 (size before relaxing)
+ .debug_str     0x0000000000040fce     0x19c2 ./src/startup_gcc.o
+                                       0x9da6 (size before relaxing)
+ .debug_str     0x0000000000042990      0x150 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-itoa.o)
+                                        0x1f9 (size before relaxing)
+ .debug_str     0x0000000000042ae0       0x40 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-utoa.o)
+                                        0x1fc (size before relaxing)
+
+.debug_frame    0x0000000000000000      0x390
+ .debug_frame   0x0000000000000000      0x28c ./src/main.o
+ .debug_frame   0x000000000000028c       0x7c ./src/startup_gcc.o
+ .debug_frame   0x0000000000000308       0x3c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-itoa.o)
+ .debug_frame   0x0000000000000344       0x4c /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-utoa.o)
+
+.debug_loc      0x0000000000000000      0x315
+ .debug_loc     0x0000000000000000      0x161 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-itoa.o)
+ .debug_loc     0x0000000000000161      0x1b4 /usr/lib/gcc/arm-none-eabi/5.4.1/../../../arm-none-eabi/lib/armv7e-m/softfp/libg.a(lib_a-utoa.o)
