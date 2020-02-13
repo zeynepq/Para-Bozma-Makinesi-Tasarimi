@@ -1,0 +1,2 @@
+buton - led - lamba seri baðlanacak 
+butonlar paralel baðlanacak 
